@@ -1,3 +1,4 @@
+# network
 resource "aws_vpc" "network" {
   cidr_block = var.network_info.cidr
   tags = {
