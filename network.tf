@@ -20,7 +20,6 @@ resource "aws_subnet" "private" {
 }
 
 # create internet gateway
-
 resource "aws_internet_gateway" "ntier" {
   vpc_id = aws_vpc.network.id
   tags = {

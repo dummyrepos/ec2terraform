@@ -1,3 +1,4 @@
+# ec2 instance
 resource "aws_instance" "web" {
   ami                         = var.web_instance_info.ami
   instance_type               = var.web_instance_info.size
