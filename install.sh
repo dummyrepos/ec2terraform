@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "mani"
 sudo apt update
 sudo apt install nginx unzip -y
 cd /tmp && wget https://www.free-css.com/assets/files/free-css-templates/download/page295/kider.zip
